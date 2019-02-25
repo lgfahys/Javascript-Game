@@ -1,16 +1,16 @@
 body {
-    background-image: url("../images/positive.png");
+    background-image: url("../images/food.png");
     
 }
 
 header {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: white;
-    background: lightcoral;
     width: 480px;
     text-align: center;
     margin: 0 auto;
-    font-size: xx-large;
+    font-size: x-large;
+    font-style: italic;
 }
 
 .text {
@@ -22,7 +22,6 @@ header {
 .container {
     background: white;
     margin: 0 auto;
-    border: 1px solid black;
     width: 960px;
     padding: 10px;
 }
