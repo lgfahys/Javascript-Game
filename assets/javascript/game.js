@@ -2,7 +2,7 @@ window.onload = function (e) {
 
     // correct words
     var words = ["SUSHI", "COFFEE", "AVOCADO", "POPCORN", "ICECREAM", "PIZZA", "SMOOTHIE", "STRAWBERRY", 
-    "CHERRY", "KIWI", "BURGER"];
+    "CHERRY", "KIWI", "BURGER", "GRAPEFRUIT"];
 
     //selects a random word
     var randomWord = words[Math.floor(Math.random() * words.length)];
@@ -83,9 +83,9 @@ window.onload = function (e) {
         }
 
         };
-        // displays number of wins, letters guessed and remaining letters
+        // displays number of wins, letters guessed, blank spaces array and remaining letters
         winsText.textContent = "Wins: " + wins;
-        blankSpacesText.textContent = "Current Word: " + blankSpaces;
+        blankSpacesText.textContent = "Current Word: " + blankSpaces.join(" ");
         guessesRemainingText.textContent = "Remaining Guesses: " + guessesRemaining;
         allLettersGuessedText.textContent = "Letters Guessed: " + allLettersGuessed;
     }

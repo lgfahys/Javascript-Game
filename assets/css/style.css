@@ -5,7 +5,7 @@ body {
 
 header {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: white;
+    color: orangered;
     width: 480px;
     text-align: center;
     margin: 0 auto;
@@ -14,13 +14,15 @@ header {
 }
 
 .text {
-    color: lightcoral;
+    color: orangered;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: large;
 }
 
 .container {
     background: white;
+    border-style: outset;
+    border-color: orangered;
     margin: 0 auto;
     width: 960px;
     padding: 10px;
