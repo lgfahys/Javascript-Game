@@ -1,2 +1,4 @@
 # Javascript-Game
-Word Guess game week 3 homework
+A "Word-Guess" Hangman inspired game, food edition!
+
+https://lgfahys.github.io/Javascript-Game/"
